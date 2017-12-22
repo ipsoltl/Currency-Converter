@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+</head>
+<body>
+ <h1>Конвертер валют</h1> 
+<p>
+  <label>Курс</label>
+  <input type="number" id="inputcurs" placeholder="курс">
+</p>
+<p>
+  <label >Валюта</label>
+  <input type="number" id="inputdol" placeholder="валюта" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)">
+</p>
+<p>
+  ИТОГО: <span id="outputrub"></span>
+</p>
+
+ 
+<script src="script.js"></script>    
+    
+</body>
+</html>
